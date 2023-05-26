@@ -1,0 +1,11 @@
+#ifndef CONTROLLER_DNS_CONFIG_H
+#define CONTROLLER_DNS_CONFIG_H
+
+#define MAX_DNSDB_DOMAIN_LENGTH 64
+
+static char RELEVANT_DOMAIN_NAMES[][MAX_DNSDB_DOMAIN_LENGTH] = {
+		"googlevideo.com",
+//		"vimeo.com",
+};
+
+#endif //CONTROLLER_DNS_CONFIG_H
